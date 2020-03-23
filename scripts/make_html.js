@@ -386,7 +386,7 @@ function main(){
 	function onkey(event){
 		if (event.key == "w" || event.key == "W"){
 			if (sel){
-				window.open("https://zh.wikipedia.org/"+people[sel].link);
+				window.open("https://zh.wikipedia.org"+people[sel].link);
 			}
 		}
 		if (event.key == "h" || event.key == "H"){
