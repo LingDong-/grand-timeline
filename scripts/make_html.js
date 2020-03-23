@@ -1,5 +1,6 @@
 const fs = require('fs')
 var people = JSON.parse(fs.readFileSync("../data/people-ancient-china.json").toString())
+if (!Object.fromEntries){Object.fromEntries=(x)=>{var b = {};x.map(a=>b[a[0]]=a[1]);return b}}
 var trad_map = Object.fromEntries(fs.readFileSync("../data/trad_map.txt").toString().split("\n").map(x=>x.split("\t")))
 var dynasties = fs.readFileSync("../data/dynasty.tsv").toString().split("\n").map(x=>x.split("\t"))
 var eras = fs.readFileSync("../data/era.tsv").toString().split("\n").map(x=>x.split("\t"))
