@@ -4,5 +4,5 @@ Grand unified timeline of 30,800 ancient Chinese people, from -1000 B.C. to 2000
 
 西周以來三萬古人年表
 
-![](screenshot000.png)
+![](screenshots/screenshot001.png)
 
