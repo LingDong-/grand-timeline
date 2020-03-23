@@ -390,7 +390,7 @@ function main(){
 			}
 		}
 		if (event.key == "h" || event.key == "H"){
-			window.open("https://lingdong.works/");
+			window.open("https://github.com/LingDong-/grand-timeline");
 		}
 		if (event.key == "p" || event.key == "P"){
 			var s = prompt("人名檢索：");
